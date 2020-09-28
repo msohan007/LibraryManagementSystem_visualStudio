@@ -1,0 +1,11 @@
+admin
+3
+3
+1
+concepts of c
+ritchie
+100
+n
+4
+4
+
