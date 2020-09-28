@@ -1,0 +1,28 @@
+**********************************Library Management System***********************************************
+
+Install sqlite3:
+	Follow the youtube video to install sqlite3 command line tools
+	YouTube: https://www.youtube.com/watch?v=6EZu9GCLgtk
+	download sqlite3 : https://sqlite.org/download.html 
+		-> Choose your Operating system and download required files.
+		-> I have downloaded sqlite-tools-win32-x86-3320300.zip for my windows 10 OS.
+		-> C: -> paste the downloaded folder after unzip -> rename folder "sqlite" (Inside C drive)
+		-> serach and click on "system environment variaable" -> click on "path" -> edit -> give the path of "sqlite" folder 
+		-> Now it's ready to run from comand line.
+
+Install codeBlock IDE:
+	Download codeblock: http://www.codeblocks.org/downloads/binaries
+		-> I have choosen "codeblocks-20.03mingw-setup"
+		-> Now it's ready to create a project.
+
+Initial setup for the project:
+	->open the project as exiting project 
+	->Right click on opened project -> Build Options.. -> Linker Setting-> add (C:\sqlite\sqlite3.dll)
+	->Serach Directories -> 
+		->add C:\sqlite (sqlite3.dll file directory)
+		->add E:\Vanier College\Block_4\C++\LAB\Project\LibraryManagementSystem\SmartLibrary (Created Project directory)
+		->add E:\Vanier College\Block_4\C++\LAB\Project\LibraryManagementSystem\SmartLibrary\src (src of your project)
+		->add E:\Vanier College\Block_4\C++\LAB\Project\LibraryManagementSystem\SmartLibrary\include (src of your project)
+		->add E:\Vanier College\Block_4\C++\LAB\Project\LibraryManagementSystem\sqlite (source of sqlite3.h)
+		-> Now ready to run the project.
+
